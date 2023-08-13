@@ -1,0 +1,24 @@
+.App {
+  margin: 10px;
+}
+.searchDiv {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+}
+.searchDiv form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.searchDiv form input {
+  text-align: center;
+}
+.imageList {
+  columns: 250px 5;
+  column-gap: 10px;
+}
+.imageListImg {
+  width: 100%;
+  margin-bottom: 10px;
+}

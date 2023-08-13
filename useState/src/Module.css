@@ -1,0 +1,11 @@
+.module {
+  width: 350px;
+  height: 175px;
+  object-fit: cover;
+}
+.moduleDiv {
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+}
