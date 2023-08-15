@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Senka Discord Bot",
+      "content": "Discord için yazılmış bir custom botu",
+      "latest_update": " Jun 14"
+    },
+    {
+      "id": 2,
+      "title": "DiscordUptimeBot",
+      "content": "Discord için yazılmış bir uptime botu. Verilen linkleri belli aralıklarla açan bir bottur",
+      "latest_update": "Mar 29"
+    },
+    {
+      "id": 3,
+      "title": "Peng-Music",
+      "content": "Discord için yazılmış bir müzik botu. Youtubeden video arayarak youtubedeki videoların sesini ses kanalında çalar",
+      "latest_update": "May 3"
+    },
+    {
+      "id": 4,
+      "title": "Weather Api",
+      "content": "Api olarak yazılmıştır. Girilen konumun googledan hava durumu bilgisini alır ve size gönderir",
+      "latest_update": "Jul 8"
+    },
+    {
+      "id": 5,
+      "title": "Lorem ipsum dolor",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed tortor sit amet nisi ultricies gravida. Sed quis tellus quis.",
+      "latest_update": "Lorem"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.projectsMainDiv {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card {
+  width: 300px;
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.cardDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.cardLastUpdate {
+  font-style: italic;
+  color: blue;
+}
+.cardDelete {
+  width: 30%;
+  padding: 10px;
+  border: 2px solid red;
+  border-radius: 30px;
+  background-color: red;
+  color: white;
+}
+.cardDelete:hover {
+  border: 2px solid black;
+}
+.refreshMainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.refreshCard {
+  padding: 30px;
+
+  width: 100px;
+  height: 100px;
+  border: 1px solid lightgray;
+
+  border-radius: 30px;
+}
+.refreshButton {
+  width: 100px;
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  background-color: blue;
+  color: white;
+}
