@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-import useTitle from "../useTitle";
+import useTitle from "./useTitle";
 
 function TitleOne() {
   const [num, setNum] = useState(0);
