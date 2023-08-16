@@ -60,3 +60,13 @@
   background-color: blue;
   color: white;
 }
+.prevNextBtn {
+  border: none;
+  font-size: 20px;
+  background: none;
+  color: orange;
+}
+.projectTitleAndBtn {
+  text-align: center;
+  margin-bottom: 20px;
+}
