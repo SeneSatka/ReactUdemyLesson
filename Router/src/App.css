@@ -1,8 +1,8 @@
-nav {
+.mainNav {
   padding: 15px 30px;
   background: lightgray;
 }
-nav a {
+.mainNav a {
   color: black;
   text-decoration: none;
   margin-right: 20px;
