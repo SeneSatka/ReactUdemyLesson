@@ -1,7 +1,7 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./Components/Home";
-import About from "./Components/About";
+// import About from "./Components/About";
 import Navbar from "./Components/Navbar";
 import Mission from "./Components/Mission";
 import WrongPath from "./Components/WrongPath";
@@ -10,13 +10,22 @@ import Company from "./Components/Company";
 import Team from "./Components/Team";
 import Members from "./Components/Members";
 import MemberDetail from "./Components/MemberDetail";
+import React from "react";
+const LazyAbout = React.lazy(() => import("./Components/About"));
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route
+          path="/about"
+          element={
+            <React.Suspense>
+              <LazyAbout />
+            </React.Suspense>
+          }
+        />
         <Route path="/mission" element={<Mission />} />
         <Route path="/history" element={<History />}>
           <Route path="company" element={<Company />} />
