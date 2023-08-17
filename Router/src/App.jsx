@@ -24,7 +24,7 @@ function App() {
           {/* İç içe route nin başına slash("/") gelmez  */}
         </Route>
         <Route path="/members" element={<Members />} />
-        <Route path="/members/:memebrId" element={<MemberDetail />} />
+        <Route path="/members/:memberId" element={<MemberDetail />} />
         <Route path="*" element={<WrongPath />} />
       </Routes>
     </div>
