@@ -1,0 +1,76 @@
+import React from "react";
+import burger from "../assets/burger.jpg";
+export const Data = [
+  {
+    name: "Efso Burger",
+    image: burger,
+    content: "150gr kasap Burger,Patates,Turşu",
+    price: 250,
+  },
+  {
+    name: "Efso Burger",
+    image: burger,
+    content: "150gr kasap Burger,Patates,Turşu",
+    price: 250,
+  },
+  {
+    name: "Efso Burger",
+    image: burger,
+    content: "150gr kasap Burger,Patates,Turşu",
+    price: 250,
+  },
+  {
+    name: "Efso Burger",
+    image: burger,
+    content: "150gr kasap Burger,Patates,Turşu",
+    price: 250,
+  },
+  {
+    name: "Efso Burger",
+    image: burger,
+    content: "150gr kasap Burger,Patates,Turşu",
+    price: 250,
+  },
+  {
+    name: "Efso Burger",
+    image: burger,
+    content: "150gr kasap Burger,Patates,Turşu",
+    price: 250,
+  },
+  {
+    name: "Efso Burger",
+    image: burger,
+    content: "150gr kasap Burger,Patates,Turşu",
+    price: 250,
+  },
+  {
+    name: "Efso Burger",
+    image: burger,
+    content: "150gr kasap Burger,Patates,Turşu",
+    price: 250,
+  },
+  {
+    name: "Efso Burger",
+    image: burger,
+    content: "150gr kasap Burger,Patates,Turşu",
+    price: 250,
+  },
+  {
+    name: "Efso Burger",
+    image: burger,
+    content: "150gr kasap Burger,Patates,Turşu",
+    price: 250,
+  },
+  {
+    name: "Efso Burger",
+    image: burger,
+    content: "150gr kasap Burger,Patates,Turşu",
+    price: 250,
+  },
+  {
+    name: "Efso Burger",
+    image: burger,
+    content: "150gr kasap Burger,Patates,Turşu",
+    price: 250,
+  },
+];
