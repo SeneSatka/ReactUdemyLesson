@@ -5,19 +5,19 @@ import {
   Typography,
 } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import React, { useState } from "react";
+import { useState } from "react";
 
 export const LessonAccordion = () => {
   const [expanded, setExpanded] = useState<string | boolean>(false);
 
   const handlechange =
-    (panel: string) => (event: React.SyntheticEvent, isExpended: boolean) => {
+    (panel: string) => (_event: React.SyntheticEvent, isExpended: boolean) => {
       setExpanded(isExpended ? panel : false);
     };
 
   return (
     <div>
-      {/* <Accordion>
+      <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography>ilk bölüm</Typography>
         </AccordionSummary>
@@ -43,7 +43,7 @@ export const LessonAccordion = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis odit
           aliquam vel corporis aut ex non voluptatum itaque nam est.
         </AccordionDetails>
-      </Accordion> */}
+      </Accordion>
       <Accordion
         onChange={handlechange("panel1")}
         expanded={expanded === "panel1"}

@@ -1,6 +1,14 @@
 import "./App.css";
+import { LessonAvatar } from "./components/LessonAvatar";
+// import { LessonBottomNavigation } from "./components/LessonBottomNavigation";
+// import { LessonBadge } from "./components/LessonBadge";
+// import { LessonSpeedDial } from "./components/LessonSpeedDial";
+// import { LessonBreadCrumb } from "./components/LessonBreadCrumb";
+// import { LessonDrawer } from "./components/LessonDrawer";
+// import { LessonLink } from "./components/LessonLink";
 // import { LessonAppBar } from "./components/LessonAppBar";
-import { LessonImageList } from "./components/LessonImageList";
+// import { LessonImageList } from "./components/LessonImageList";
+// import { LessonPaper } from "./components/LessonPaper";
 // import { LessonAccordion } from "./components/LessonAccordion";
 // import { LessonCard } from "./components/LessonCard";
 // import { LessonGrid } from "./components/LessonGrid";
@@ -12,7 +20,6 @@ import { LessonImageList } from "./components/LessonImageList";
 // import { LessonRadioExample } from "./components/LessonradioExample";
 // import { LessonRadioGroup } from "./components/LessonRadioGroup";
 // import { LessonTextField } from "./components/LessonTextField";
-
 // import { LessonButton } from "./components/LessonButton";
 // import { LessonButtonGroup } from "./components/LessonButtonGroup";
 // import { LessonTypography } from "./components/LessonTypography";
@@ -35,7 +42,15 @@ function App() {
       {/* <LessonCard /> */}
       {/* <LessonAccordion /> */}
       {/* <LessonAppBar /> */}
-      <LessonImageList />
+      {/* <LessonImageList /> */}
+      {/* <LessonPaper /> */}
+      {/* <LessonLink /> */}
+      {/* <LessonBreadCrumb /> */}
+      {/* <LessonDrawer /> */}
+      {/* <LessonBadge /> */}
+      {/* <LessonSpeedDial /> */}
+      {/* <LessonBottomNavigation /> */}
+      <LessonAvatar />
     </div>
   );
 }
